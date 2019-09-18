@@ -26,7 +26,7 @@ Written in Matlab
 Author: Maria Mesimeri
 
 ## F-detector
-Reference: Blandford, R.R., 1974. Anautomatic Event detector at the Tonto forest seismic observatory. Geophysics 39, 633–643.
+Reference: Blandford, R.R., 1974. An automatic Event detector at the Tonto forest seismic observatory. Geophysics 39, 633–643.
 
 Written in Matlab
 
