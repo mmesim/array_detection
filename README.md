@@ -16,18 +16,18 @@ Reference: Li, Z., Peng, Z., Hollis, D., Zhu, L., McClellan, J., 2018. High-reso
 
 Written in Matlab
 
-Authors: Maria Mesimeri
+Author: Maria Mesimeri
 
 ## Envelopes
 Reference: Meng, H., Ben-Zion, Y., 2018. Detection of small earthquakes with dense array data: Example from the San Jacinto fault zone, southern California. Geophys. J. Int. 212, 442–457. https://doi.org/10.1093/gji/ggx404
 
 Written in Matlab
 
-Authors: Maria Mesimeri
+Author: Maria Mesimeri
 
 ## F-detector
 Reference: Blandford, R.R., 1974. Anautomatic Event detector at the Tonto forest seismic observatory. Geophysics 39, 633–643.
 
 Written in Matlab
 
-Authors: Maria Mesimeri
+Author: Maria Mesimeri
