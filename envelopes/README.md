@@ -4,27 +4,27 @@
 
 **workers**: integer, define the number of cores for parallel processing.                 
 
+**ind**: array to define different subarrays based on the station number. For nodals station name is a number.  
+
 **type**: string, choose between 'low', 'high', 'bandpass' for filtering, for high or low pass set the hcorner equal to lcorner and vice versa
 
 **lcorner**: lower corner frequency
 
 **hcorner**: higher corner frequency
 
-**neighb**: define the number of nearest neighbors
+**sta**: Define short window in seconds
 
-**cc_win**: define the window for cross correlation in sec 
+**lta**: Define long term window in seconds
 
-**thres**:   define the detection threshold (median+(thres*MAD))
+**thres**:   define the detection threshold (thres * median(sta/lta) )
 
-**det_win**: define the detection window in sec
-  
 **time_thres**: define time threshold to group detections in sec
 
 
 *Package written in Matlab for event detection using Large N array*
 
 The algorithm is based on: 
-*Li, Z., Peng, Z., Hollis, D., Zhu, L., McClellan, J., 2018. High-resolution seismic event detection using local similarity for Large-N arrays. Sci. Rep. 8, 1–10. https://doi.org/10.1038/s41598-018-19728-w
+* Meng, H., Ben-Zion, Y., 2018. Detection of small earthquakes with dense array data: Example from the San Jacinto fault zone, southern California. Geophys. J. Int. 212, 442–457. https://doi.org/10.1093/gji/ggx404 *
 
 ## Execute
 Edit the parameter file. Double check that the path is correct. Type "array_detection" in the command window. 
