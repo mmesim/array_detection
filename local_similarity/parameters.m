@@ -3,7 +3,7 @@
 %---------- M.Mesimeri 06/2019 --------------------------------------------
 
 %path to waveforms
-mydata='/uufs/chpc.utah.edu/common/home/koper-group1/mesimeri/Array_Detection/LOCAL_SIMILARITY/DATA1'; 
+mydata='/Array_Detection/LOCAL_SIMILARITY/DATA1'; 
 %--------------------------------------------------------------------------
 % Parallel settings
 workers=32;                 %Set number of cores to work on a local machine
