@@ -28,7 +28,7 @@ The algorithm is based on:
 ## Execute
 Edit the parameter file. Double check that the path is correct. Type "array_detection" in the command window. 
 
-parameter.m, array_detection.m & src should be at the same directory. Waveforms can be anywhere.
+parameter.m, array_detection.m & src should be in the same directory. Waveforms can be anywhere.
 
 
 
