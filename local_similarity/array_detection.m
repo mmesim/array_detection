@@ -45,5 +45,4 @@ display('Output #2 : Figures')
 delete(gcp)
 fprintf('Elapsed time %6.2f minutes... \n',toc/60) %stop timer
 
-clearvars -except detections saved_loc saved_wvf header
-save detections.mat
+
