@@ -46,6 +46,5 @@ saved_wvf=my_output(header,detections, y_proc,ratio,thres);
 delete(gcp)
 fprintf('Elapsed times %6.2f minutes... \n',toc/60) %stop timer
 
-clearvars -except detections saved_wvf header
-save detections.mat
+
 
