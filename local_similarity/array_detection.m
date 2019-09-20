@@ -21,7 +21,7 @@ y_proc=my_preprocessing(y,header(1).DELTA,type,lcorner,hcorner);
 %% 03. Nearest neighbor and master station groups
 display('Clustering...')
 ind=my_clustering(neighb,header);
-s
+
 %% 04. Perform cross correlations and define local similarity for each group
 display('Local similarity...');
 loc_sim=my_local_similarity(ind,y_proc,cc_win,header(1).DELTA);
