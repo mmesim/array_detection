@@ -9,7 +9,7 @@ parameters %load parameter file
 parpool('local',workers); %Start parallel pool
 mydir=pwd; pdir=sprintf('%s/src/',pwd); % get working directory path
 addpath(genpath(pdir)); %add all *.m scripts to path
-%-----------------------------htop---------------------------------------------
+%--------------------------------------------------------------------------
 %% 01. Load data (Sac files)
 display('Loading files..')
 [y,header]=my_loadfiles(mydata);
