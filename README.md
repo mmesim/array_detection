@@ -2,15 +2,6 @@
 
 Set of codes for earthquake detection using large N-arrays. 
 
-## Contour detector
-Reference: *Linville, L. M., Pankow, K. L., & Kilb, D. L. (2018). Contour‐Based Frequency‐Domain Event Detection for Seismic Arrays. Seismological Research Letters, 89(4), 1514–1523. https://doi.org/10.1785/0220170242*
-
-Written in Bash & Python (2.7)
-
-Latest version: https://github.com/quapity/CDC
-
-Authors: L.L., H.Z., A.T., M.M.
-
 ## Local Similarity
 Reference: *Li, Z., Peng, Z., Hollis, D., Zhu, L., McClellan, J., 2018. High-resolution seismic event detection using local similarity for Large-N arrays. Sci. Rep. 8, 1–10. https://doi.org/10.1038/s41598-018-19728-w*
 
