@@ -20,12 +20,18 @@ ratio=zeros(N,1);
 %Find Potential triggers
 triggs=find(ratio(:,1)>=thres*median(ratio));
 
-%Group triggers 
+%Group triggers
 det=(triggs*delta);
-inter=diff(det); %interevent times
-ind=find(inter(:,1)>time_thres); %apply threshold
+j=1;
+for ii=1:length(det)-1
+if det(ii+1)-det(ii)<time_thres
+temp(j)=ii+1;
+j=j+1;
+end
+end
+ind=setdiff(1:length(det)-1,temp);
 
 %Final vector with detections in seconds
 detections=det(ind);
-   
+
 end
