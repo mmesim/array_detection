@@ -1,4 +1,4 @@
-# Array_Detection
+# Array Detection
 
 Set of codes for earthquake detection using large N-arrays. 
 
@@ -12,7 +12,15 @@ Author: Maria Mesimeri
 ## Envelopes
 Reference: *Meng, H., Ben-Zion, Y., 2018. Detection of small earthquakes with dense array data: Example from the San Jacinto fault zone, southern California. Geophys. J. Int. 212, 442–457. https://doi.org/10.1093/gji/ggx404*
 
+
 Written in Matlab
 
 Author: Maria Mesimeri
 
+## F Detector
+Reference: *Blandford, R.R., 1974. An automatic Event detector at the Tonto forest seismic observatory. Geophysics 39, 633–643.*
+
+
+Written in Matlab
+
+Author: Maria Mesimeri
