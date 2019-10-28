@@ -19,7 +19,7 @@ N1=2*B*T; N2=N1*(N-1);
 
 %Theoretical Distribution
 x=0:0.01:10;
-y=fpdf(x,40,120);
+y=fpdf(x,N1,N2);
 [~,ind]=max(y);
 xmax=x(ind);
 
